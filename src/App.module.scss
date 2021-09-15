@@ -1,0 +1,47 @@
+$motorway_yellow: #FEF200;
+$blue: #0460CC;
+$green: #00BC80;
+$grey_1: #AFADA3;
+$grey_2: #E2E1D9;
+$grey_3: #F2F2F2;
+$dark_grey_1: #2D2D2B;
+$dark_grey_2: #4A4A48;
+$dark_grey_3: #61615F;
+$natural_black: #1D1D1B;
+$faded_natural_black: fade($natural_black, 75%);
+$primary_blue: #0397D8;
+$primary_blue_hover: #37ACDF;
+$primary_blue_active: #0080B7;
+$red: #E72F3D;
+$red_hover: #F34452;
+$secondary_blue: #E5F4FB;
+$teal: #194C57;
+$white: #FFFFFF;
+
+.app {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+
+  .helper {
+    background-color: 1px solid #000;
+    left: 0;
+    padding: 16px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+  }
+
+  .screen {
+    border: 1px solid #fff;
+    height: 60vh;
+    width: 60vh * 1.3333;
+  }
+
+  .dvdLogo {
+    width: 294px;
+    height: 150px;
+  }
+}

@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import DvdLogo from './components/DvdLogo';
+import styles from './App.module.scss';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.app}>
+      <div className={styles.helper}>
+        <strong>Task:</strong> Recreate the bouncing <a href='https://www.youtube.com/watch?v=5mGuCdlCcNM'>DVD screensaver</a>
+      </div>
+      <div className={styles.screen}>
+        <DvdLogo className={styles.dvdLogo} />
+      </div>
     </div>
   );
 }
