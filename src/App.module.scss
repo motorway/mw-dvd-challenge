@@ -37,11 +37,20 @@ $white: #FFFFFF;
   .screen {
     border: 1px solid #fff;
     height: 60vh;
-    width: 60vh * 1.3333;
+    width: 60vh * 1.333;
+    position: relative;
+  }
+
+  .logo {
+    --dvdLogo-color: white;
+
+    position: absolute;
+    transform: translate(0, 0);
   }
 
   .dvdLogo {
-    width: 294px;
-    height: 150px;
+    width: 150px;
+    height: 76px;
+    fill: var(--dvdLogo-color);
   }
 }
