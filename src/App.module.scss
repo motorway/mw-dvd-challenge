@@ -38,9 +38,11 @@ $white: #FFFFFF;
     border: 1px solid #fff;
     height: 60vh;
     width: 60vh * 1.3333;
+    position: relative;
   }
 
   .dvdLogo {
+    position: absolute;
     width: 294px;
     height: 150px;
   }
